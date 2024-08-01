@@ -1,20 +1,13 @@
-import { DefaultButton, Stack, Text } from "@fluentui/react";
 import * as React from "react";
+import { Pivot_Comp } from "./items/Pivot_Comp";
+import { Stack_Comp } from "./items/Stack_Comp";
+
 
 const App: React.FC = () => {
 
-
-  const stackTokens = { childrenGap: 10 };
-
-  
   return (
     <>
-    <Stack tokens={stackTokens}>
-      <Text variant="xLarge">Stack Items</Text>
-      <DefaultButton text="Btn1"/>
-      <DefaultButton text="Btn1"/>
-      <DefaultButton text="Btn1"/>
-    </Stack>
+      <Pivot_Comp/>
     </>
   );
 };
