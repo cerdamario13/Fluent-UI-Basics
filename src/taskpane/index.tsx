@@ -2,6 +2,10 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./components/App";
 import { ThemeProvider } from "@fluentui/react";
+import { initializeIcons } from '@fluentui/font-icons-mdl2';
+
+//Initialize icons for the app
+initializeIcons();
 
 /* global document, Office, module, require, HTMLElement */
 
