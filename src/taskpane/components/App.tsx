@@ -6,6 +6,7 @@ import { Dropdown_Comp } from "./items/Dropdown_Comp";
 import { Button_Menu } from "./items/Button_Menu";
 import { Tooltip_Custom_Comp } from "./items/Tooltip_Custom_Comp";
 import { Tooltip_Reg_Comp } from "./items/Tooltio_Reg_Comp";
+import { Dialog_Comp } from "./items/Dialog_Comp";
 
 
 const App: React.FC = () => {
@@ -20,7 +21,7 @@ const App: React.FC = () => {
       <br />
 
       {/* //Edit this */}
-      <Tooltip_Reg_Comp />
+      <Dialog_Comp />
     </Stack>
   );
 };
